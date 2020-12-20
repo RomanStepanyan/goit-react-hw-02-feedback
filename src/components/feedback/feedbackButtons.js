@@ -10,7 +10,6 @@ const OneButton = ({ feedback, onLeaveFeedback }) => {
 };
 
 const FeedbackButtons = ({ options, onLeaveFeedback }) => {
-  // return options.map((option) => OneButton({feedback:option,onLeaveFeedback}));
   return options.map(option => (
     <OneButton feedback={option} onLeaveFeedback={onLeaveFeedback} />
   ));
