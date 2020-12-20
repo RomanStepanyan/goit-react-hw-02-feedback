@@ -2,3 +2,42 @@
   margin: 0 auto;
   text-align: center;
 }
+
+section button {
+  width: 86px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 0px 0px 5px rgba(56, 117, 133, 0.5);
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+section button:nth-of-type(1) {
+  color: rgb(46, 139, 87);
+}
+
+section button:nth-of-type(2) {
+  color: rgb(230, 204, 89);
+}
+
+section button:nth-of-type(3) {
+  color: rgb(230, 94, 89);
+}
+/* section :nth-child(2) {
+  color: rgb(46, 139, 87);
+  margin-right: 20px;
+} */
+
+/* button :nth-of-type(1) {
+  color: rgb(46, 139, 87);
+} */
+
+/* section :nth-child(3) {
+  color: rgb(230, 204, 89);
+  margin-right: 20px;
+}
+
+section :nth-child(4) {
+  color: rgb(230, 94, 89);
+  margin-right: 0px;
+} */
